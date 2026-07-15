@@ -1,17 +1,31 @@
-# zenvyrolabs01_studentprofile
+# Student Profile UI 🎓
 
-A new Flutter project.
+A clean, responsive, and minimalist Student Profile interface built entirely with Flutter. This project demonstrates the practical application of core Flutter widgets to create a well-structured and visually appealing layout.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **Header:** Custom AppBar with the title "Student Profile".
+- **Visuals:** A neatly aligned `CircleAvatar` placeholder for the profile picture.
+- **Academic Details:** Clearly displays Full Name, University Name, Department, and Semester (Session 2023-2026).
+- **Contact Info:** Email and Phone number structured with intuitive icons.
+- **Biography:** A brief 2–3 line "About Me" text section.
+- **Call to Action:** An interactive "Edit Profile" button.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Flutter Widgets Used
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+This UI relies on fundamental Flutter components, ensuring optimal performance and proper alignment:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `MaterialApp`, `Scaffold`, `AppBar`
+- `Column`, `Row`
+- `Container`, `SizedBox`, `Padding`
+- `CircleAvatar`, `Icon`, `Text`
+- `ElevatedButton`
+
+## 🚀 Getting Started
+
+To view this project on your local machine:
+
+1. Clone this repository.
+2. Ensure you have the Flutter SDK installed.
+3. Run `flutter pub get` in your terminal to fetch any dependencies.
+4. Execute `flutter run` to launch the app on your connected device or emulator.
